@@ -206,6 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{russian: 'блеск', english: 'gleam'},
 		{russian: 'широкий', english: 'broad'},
 		{russian: 'узнавать', english: 'recognize'},
+		{russian: 'подход', english: 'aproach'},
 		//{russian: '', english: ''},
 	];
 
