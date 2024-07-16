@@ -215,9 +215,16 @@ document.addEventListener('DOMContentLoaded', () => {
 		{russian: 'воспринимать', english: 'perceive'},
 		{russian: 'иначе / по иному', english: 'otherwise'},
 		{russian: 'часто', english: 'often'},
+		{russian: 'редко', english: 'seldom'},
 		{russian: 'мудрость / мудрый', english: 'wisdom / wise'},
 		{russian: 'современный', english: 'contemporary'},
 		{russian: 'буквально', english: 'literally'},
+		{russian: 'нанимать', english: 'hire'},
+		{russian: 'хитрый', english: 'sly'},
+		{russian: 'худой', english: 'slim'},
+		{russian: 'веселый', english: 'merry'},
+		{russian: 'благодаря / из-за', english: 'due'},
+		{russian: 'неудобный', english: 'inconve' + "'" + 'nient'},
 		//{russian: '', english: ''},
 	];
 
