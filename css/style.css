@@ -668,6 +668,7 @@ body {
     padding-left: 8px;
     text-transform: uppercase;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 0.2s ease;
 }
 
 .main .main-wrapper {
@@ -679,9 +680,8 @@ body {
     padding-right: 24px;
     padding-bottom: 0;
     padding-left: 24px;
-    background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0px 1px rgba(255, 255, 255, 0.05), 0 0px 1px rgba(255, 255, 255, 0.1);
 }
 
 .main .main-wrapper__list {
@@ -697,14 +697,15 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 40px;
-    padding-top: 2px;
+    padding-top: 4px;
     padding-right: 16px;
-    padding-bottom: 2px;
+    padding-bottom: 4px;
     padding-left: 16px;
     border: 0.5px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     text-transform: uppercase;
     text-align: center;
+    transition: 0.2s ease;
 }
 
 .main .main-wrapper .english-item {
@@ -731,8 +732,7 @@ body {
     color: rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: none;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.2s ease;
 }
@@ -740,4 +740,24 @@ body {
 .main .main-wrapper .btn--disabled {
     pointer-events: none;
     opacity: 0.5;
+}
+
+.main .main-wrapper .laws-list {
+    list-style: auto;
+}
+
+.main .main-wrapper .laws-item {
+    padding-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+@media (any-hover: hover) {
+    .link:hover {
+        opacity: 0.5;
+    }
+
+    .main-wrapper__btn:hover {
+        opacity: 0.5;
+    }
 }
