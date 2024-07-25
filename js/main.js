@@ -225,6 +225,12 @@ document.addEventListener('DOMContentLoaded', () => {
 		{russian: 'веселый', english: 'merry'},
 		{russian: 'благодаря / из-за', english: 'due'},
 		{russian: 'неудобный', english: 'inconve' + "'" + 'nient'},
+		{russian: 'сомнения / сомневавться', english: 'doubts / doubt'},
+		{russian: 'отказывать', english: 'refuse'},
+		{russian: 'обманывать', english: 'deceive'},
+		{russian: 'управлять', english: 'manage'},
+		{russian: 'радость', english: 'joy'},
+		{russian: 'впечатление', english: 'impression'},
 		//{russian: '', english: ''},
 	];
 
