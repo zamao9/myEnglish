@@ -246,11 +246,18 @@ document.addEventListener('DOMContentLoaded', () => {
 		{russian: 'несчастный / жалкий', english: 'miserable'},
 		{russian: 'блудный сын', english: 'prodigal son'},
 		{russian: 'лицемерие', english: 'hypocrisy'},
+		{russian: 'привез', english: 'brought'},
+		{russian: 'не в духе', english: 'out of sorts'},
+		{russian: 'насекомое', english: 'insect'},
+		{russian: 'предлагать', english: 'suggest'},
+		{russian: 'хотя', english: '(al)though'},
+		{russian: 'смущать', english: 'embarrass'},
 		//{russian: '', english: ''},
 	];
 
 	const button = document.querySelector('.main-wrapper__btn');
 	const russianWord = document.querySelector('.russian-item');
+	const newWord = document.querySelector('.new');
 	const englishWord = document.querySelector('.english-item');
 	const counter = document.querySelector('.main-wrapper__count');
 
