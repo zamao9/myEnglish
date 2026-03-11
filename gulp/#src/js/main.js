@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		{ russian: 'дело / случай', english: 'case' },
 		{ russian: 'точка / смысл', english: 'point' },
 		{ russian: 'смылс / чувство', english: 'sense' },
-		{ russian: 'государство', english: 'government' },
 		{ russian: 'способен', english: 'able' },
 		{ russian: 'безупречный', english: 'immaculate' },
 		{ russian: 'держаться подальше / воздержаться', english: 'keep from' },
@@ -14,13 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		{ russian: 'мощь / может', english: 'might' },
 		{ russian: 'развязаться', english: 'come undone' },
 		{ russian: 'мурашки', english: 'chills' },
-		{ russian: 'не', english: 'are not / ain' + "'" + 't' },
 		{ russian: 'вера покинула', english: 'faith-departed' },
 		{ russian: 'толпа', english: 'crowd' },
 		{ russian: 'кричать', english: 'shout / yell' },
 		{ russian: 'стоять на своем', english: 'stand your ground' },
 		{ russian: 'гнуться', english: 'bend' },
-		{ russian: 'искать', english: 'seek' },
 		{ russian: 'разделить', english: 'divide / split' },
 		{ russian: 'вешать', english: 'hang' },
 		{ russian: 'чайка', english: 'gull / seagull' },
@@ -32,21 +29,15 @@ document.addEventListener('DOMContentLoaded', () => {
 		{ russian: 'задыхаться', english: 'suffocate' },
 		{ russian: 'тонуть', english: 'drown' },
 		{ russian: 'я скоро / я вот-вот', english: 'i' + "'" + 'm about to' },
-		{
-			russian: 'я собираюсь сделать',
-			english: 'i' + "'" + 'm going to / im gonna',
-		},
 		{ russian: 'реанимировать', english: 'resu' + "'" + 'scitate' },
 		{ russian: 'щелчок', english: 'snap' },
-		{ russian: 'класть', english: 'lay / put' },
 		{ russian: 'унижаться', english: 'humiliate' },
 		{ russian: 'едва ли / еле еле', english: 'barely' },
 		{ russian: 'никто / также не', english: 'neither' },
 		{ russian: 'любой / каждый', english: 'either' },
 		{ russian: 'блевать / изрыгать', english: 'spew' },
 		{ russian: 'плевать', english: 'spit' },
-		{ russian: 'тянуть', english: 'pull' },
-		{ russian: 'отдельно', english: 'separate' },
+		{ russian: 'отделять / отдельный', english: 'separate' },
 		{ russian: 'сдержанный', english: 'restrained' },
 		{ russian: 'тротуар', english: 'sidewalk' },
 		{ russian: 'искренний', english: 'sincere' },
@@ -58,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{ russian: 'ушел в отставку', english: 'retired' },
 		{ russian: 'похожий', english: 'similar' },
 		{ russian: 'упоминать', english: 'mention' },
-		{ russian: 'подозрения', english: 'suspicions' },
+		{ russian: 'подозрения / подозреваемый', english: 'suspicions / suspect' },
 		{ russian: 'беспорядок', english: 'mess' },
 		{ russian: 'крот / моль', english: 'mole' },
 		{ russian: 'хер / ничтожество', english: 'prick' },
@@ -73,20 +64,13 @@ document.addEventListener('DOMContentLoaded', () => {
 		{ russian: 'напрасно', english: 'in vain' },
 		{ russian: 'пытка', english: 'torture' },
 		{ russian: 'взор / взгляд', english: 'gaze' },
-		{ russian: 'выше', english: 'above' },
-		{ russian: 'страсть', english: 'passion' },
 		{ russian: 'хватка', english: 'grip' },
 		{ russian: 'острые ощущения', english: 'thrill' },
 		{ russian: 'соперник / конкурент', english: 'rival' },
 		{ russian: 'добыча', english: 'prey' },
-		{ russian: 'жесткий', english: 'tough' },
 		{ russian: 'стопка', english: 'stack' },
-		{ russian: 'прямой', english: 'straight' },
-		{ russian: 'кишки', english: 'guts' },
-		{ russian: 'воля', english: 'will' },
 		{ russian: 'на плаву / плавающий', english: 'float' },
 		{ russian: 'бросить вызов / игнорировать', english: 'defy' },
-		{ russian: 'пройти / пропускать', english: 'pass' },
 		{ russian: 'градус / степень', english: 'degree' },
 		{ russian: 'столкнуться', english: 'collide' },
 		{ russian: 'спутник', english: 'sa' + "'" + 'tellite' },
@@ -97,7 +81,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		{ russian: 'внезапно', english: 'suddenly' },
 		{ russian: 'подлые вещи', english: 'mean things' },
 		{ russian: 'мужество', english: 'courage' },
-		{ russian: 'неловкий', english: 'awkward' },
 		{ russian: 'удлиннять / расширять', english: 'extend / expand' },
 		{ russian: 'заметить кого-то', english: 'spot someone' },
 		{ russian: 'повседневный', english: 'casual' },
@@ -174,7 +157,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		{ russian: 'боль', english: 'ache' },
 		{ russian: 'позвоночник', english: 'spine' },
 		{ russian: 'запасное', english: 'spare' },
-		{ russian: 'подозревать / подозреваемый', english: 'suspect' },
 		{ russian: 'священный', english: 'sacred' },
 		{ russian: 'результат', english: 'outcome' },
 		{ russian: 'форма', english: 'shape' },
@@ -242,12 +224,16 @@ document.addEventListener('DOMContentLoaded', () => {
 		{ russian: 'несчастный / жалкий', english: 'miserable' },
 		{ russian: 'блудный сын', english: 'prodigal son' },
 		{ russian: 'лицемерие', english: 'hypocrisy' },
-		{ russian: 'привез', english: 'brought' },
 		{ russian: 'не в духе', english: 'out of sorts' },
 		{ russian: 'насекомое', english: 'insect' },
 		{ russian: 'предлагать', english: 'suggest' },
 		{ russian: 'хотя', english: '(al)though' },
 		{ russian: 'смущать', english: 'embarrass' },
+		{ russian: 'уменьшать / сокращать', english: 'reduce' },
+		{ russian: 'дрожать / дрожь', english: 'shiver' },
+		{ russian: 'шепот / шептать', english: 'whisper' },
+		{ russian: 'напротив', english: 'opposite' },
+		{ russian: 'вокруг', english: 'round' },
 		//{russian: '', english: ''},
 	];
 
@@ -274,8 +260,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		ruEl.textContent = word.russian;
 
 		if (started) {
-			ruEl.classList.add('hidden');
-			ruEl.dataset.visible = 'false';
+			enEl.classList.add('hidden');
+			enEl.dataset.visible = 'false';
 		}
 
 		// Delete the word
@@ -284,8 +270,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 		if (availableWords.length === 0) {
 			availableWords = [...wordsList];
-			ruEl.classList.remove('visible');
-			ruEl.dataset.visible = 'false';
+			enEl.classList.remove('visible');
+			enEl.dataset.visible = 'false';
 			nextBtn.style.opacity = 0.2;
 			nextBtn.style.pointerEvents = 'none';
 			nextBtn.style.cursor = 'default';
@@ -295,11 +281,11 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 
 	// Listener to show translate
-	ruEl.addEventListener('click', () => {
+	enEl.addEventListener('click', () => {
 		// If the text is hidden, will show it
-		if (ruEl.dataset.visible === 'false') {
-			ruEl.classList.remove('hidden');
-			ruEl.dataset.visible = 'true';
+		if (enEl.dataset.visible === 'false') {
+			enEl.classList.remove('hidden');
+			enEl.dataset.visible = 'true';
 		}
 	});
 
