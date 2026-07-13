@@ -234,6 +234,14 @@ document.addEventListener('DOMContentLoaded', () => {
 		{ russian: 'шепот / шептать', english: 'whisper' },
 		{ russian: 'напротив', english: 'opposite' },
 		{ russian: 'вокруг', english: 'round' },
+		{ russian: 'знакомство', english: 'acquaintance' },
+		{ russian: 'помощь, оказание помощи', english: 'aid' },
+		{ russian: 'союзники', english: 'allies' },
+		{ russian: 'долг', english: 'debt' },
+		{ russian: 'ясно выразился', english: 'came in clear' },
+		{ russian: 'прояснить ситуацию', english: 'clear the air' },
+		{ russian: 'оставаться', english: 'remain' },
+		{ russian: 'объятия', english: 'embrace' },
 		//{russian: '', english: ''},
 	];
 
@@ -246,6 +254,8 @@ document.addEventListener('DOMContentLoaded', () => {
 	const enEl = document.getElementById('word-en');
 	const ruEl = document.getElementById('word-ru');
 	const nextBtn = document.getElementById('next-btn');
+
+	nextBtn.innerText = 'Start';
 
 	const counter = document.querySelector('.english__counter');
 	counter.textContent = wordsList.length;
@@ -260,6 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		ruEl.textContent = word.russian;
 
 		if (started) {
+			nextBtn.innerText = 'Next';
 			enEl.classList.add('hidden');
 			enEl.dataset.visible = 'false';
 		}
@@ -272,10 +283,11 @@ document.addEventListener('DOMContentLoaded', () => {
 			availableWords = [...wordsList];
 			enEl.classList.remove('visible');
 			enEl.dataset.visible = 'false';
-			nextBtn.style.opacity = 0.2;
+			nextBtn.style.opacity = 0.5;
 			nextBtn.style.pointerEvents = 'none';
 			nextBtn.style.cursor = 'default';
-			counter.style.opacity = 0.2;
+			counter.style.opacity = 0.5;
+			nextBtn.innerText = 'Done';
 			return;
 		}
 	}
